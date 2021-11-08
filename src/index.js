@@ -80,3 +80,24 @@ function retrievePosition(position) {
 }
 
 navigator.geolocation.getCurrentPosition(retrievePosition);
+
+function displayForecast() {
+  let forecastElement = document.querySelector("#forecast");
+  forecastElement.innerHTML = `
+    <div class="row">
+            <div class="col-2">
+              <div class="wather-forecast-date">Fri</div>
+              <img
+                src="http://openweathermap.org/img/wn/04d@2x.png"
+                width="36px"
+              />
+              <div class="weather-forecast-temperatures">
+                <span class="weather-forecast-temperatures-max"> 18 </span>
+                <span class="weather-forecast-temperatures-min"> 12 </span>
+              </div>
+            </div>
+    </div>
+    `;
+}
+
+displayForecast;
