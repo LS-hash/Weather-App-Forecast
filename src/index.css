@@ -32,6 +32,8 @@ li {
 }
 h1 {
   padding: 10px;
+  color: grey;
+  font-size: 30px;
 }
 h2 {
   font-size: 18px;
@@ -71,9 +73,11 @@ h2 {
 }
 
 #date {
-  color: black;
+  color: rgb(75, 75, 75);
   font-size: 20px;
   display: block;
+  margin-bottom: 5px;
+  font-weight: bolder;
 }
 
 #icon {
@@ -104,11 +108,22 @@ h2 {
   font-size: 16px;
   color: black;
   opacity: 0.6;
+  font-weight: bolder;
 }
-.weather-forecast-temperatures {
-  font-size: 13px;
+.weather-forecast-temperature {
+  font-size: 17px;
 }
 
-.weather-forecast-temperatures-min {
+.weather-forecast-temperature-min {
   opacity: 0.5;
+  color: rgb(92, 91, 91);
+}
+
+.footnote {
+  font-size: 14px;
+}
+
+.core-info {
+  color: grey;
+  font-size: 17px;
 }
